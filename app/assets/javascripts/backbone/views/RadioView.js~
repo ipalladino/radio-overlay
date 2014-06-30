@@ -1,0 +1,9 @@
+App.RadioView = Backbone.View.extend({
+    el : "#radio",
+    events : {
+	"click #activate" : "activate"
+    },
+    activate : function() {
+    
+    }
+});

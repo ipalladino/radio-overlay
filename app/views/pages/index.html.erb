@@ -1,0 +1,13 @@
+<div id="html-container">
+  <div><a class="active" href="/">Go to index</a></div>
+  <div><a href="/page2">Go to page2</a></div>
+  <div><a href="/page3">Go to page3</a></div>
+  <div>This is the index page!!!</div>
+</div>
+
+<% if(!params[:hideRadio])  %>
+   <div id="radio">
+     <div id="activate">Activate Radio</div>
+     <iframe src="https://app.stitcher.com/splayer/f/5556" />
+   </div>
+<% end %>

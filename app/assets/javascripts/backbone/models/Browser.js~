@@ -1,0 +1,8 @@
+App.Browser = Backbone.Model.extend({
+    defaults : {
+	page_url : "/"
+    }
+    initialize : function() {
+	
+    }
+});

@@ -1,0 +1,29 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.active {
+    color:#ff0000;
+}
+
+#html-container {
+    z-index:1;
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+#navigator {
+    z-index:2;
+    top:0px;
+    left:0px;
+}
+
+#radio {
+    z-index:2;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    width:300px;
+    height:170px;
+}
